@@ -1,0 +1,26 @@
+.footer {
+    margin: 0 auto;
+    background-color: #18191f;
+    height: 72px;
+    color: #d9dbe1;
+    /* padding: 24px 165px; */
+    padding: 19px;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    line-height: 171%;
+}
+
+.footer__copyright {
+    font-family: Manrope;
+    font-size: 14px;
+    font-feature-settings: "liga" off;   
+}
+
+.footer__socials a {
+    color: #d9dbe1;
+}

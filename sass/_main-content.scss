@@ -1,0 +1,51 @@
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 203px;
+    margin-top: 197px;
+}
+.text-block {
+    max-width: 540px;
+    margin-right: 38px;
+}
+.text-block__title {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 136%;
+    font-feature-settings: "liga" off;
+    color: #18191f;
+    margin-bottom: 16px;
+}
+
+.text-block__subtitle {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 178%;
+    font-feature-settings: "liga" off;
+    color: #18191f;
+    margin-bottom: 32px;
+}
+
+.text-block__btn {
+    padding: 16px 35px;
+    background: #8c30f5;
+    border-radius: 8px;
+    max-width: 285px;
+}
+
+.text-block__btn a {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    font-feature-settings: "liga" off;
+    color: #ffffff;
+}
+

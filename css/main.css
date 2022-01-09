@@ -1,0 +1,166 @@
+/* base */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&family=Raleway:wght@900&display=swap");
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  font-family: "Manrope", sans-serif;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+/* blocks */
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 72px;
+  padding-top: 22px 167px;
+  border-bottom: 0px 1px 0px #e5e9f2;
+}
+
+.logo {
+  margin-right: 32px;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 143%;
+  -webkit-font-feature-settings: "liga" off;
+          font-feature-settings: "liga" off;
+  color: #18191f;
+}
+
+.nav li + li {
+  margin-left: 32px;
+}
+
+a {
+  text-decoration: none;
+  color: #18191f;
+}
+
+.appstore {
+  margin-left: 177px;
+}
+
+a:hover {
+  color: orange;
+}
+
+.main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 203px;
+  margin-top: 197px;
+}
+
+.text-block {
+  max-width: 540px;
+  margin-right: 38px;
+}
+
+.text-block__title {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 136%;
+  -webkit-font-feature-settings: "liga" off;
+          font-feature-settings: "liga" off;
+  color: #18191f;
+  margin-bottom: 16px;
+}
+
+.text-block__subtitle {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 178%;
+  -webkit-font-feature-settings: "liga" off;
+          font-feature-settings: "liga" off;
+  color: #18191f;
+  margin-bottom: 32px;
+}
+
+.text-block__btn {
+  padding: 16px 35px;
+  background: #8c30f5;
+  border-radius: 8px;
+  max-width: 285px;
+}
+
+.text-block__btn a {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  -webkit-font-feature-settings: "liga" off;
+          font-feature-settings: "liga" off;
+  color: #ffffff;
+}
+
+.footer {
+  margin: 0 auto;
+  background-color: #18191f;
+  height: 72px;
+  color: #d9dbe1;
+  /* padding: 24px 165px; */
+  padding: 19px;
+}
+
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  line-height: 171%;
+}
+
+.footer__copyright {
+  font-family: Manrope;
+  font-size: 14px;
+  -webkit-font-feature-settings: "liga" off;
+          font-feature-settings: "liga" off;
+}
+
+.footer__socials a {
+  color: #d9dbe1;
+}

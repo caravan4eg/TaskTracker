@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    padding-top: 22px 167px;
+    border-bottom: 0px 1px 0px #e5e9f2;
+}
+.logo {
+    margin-right: 32px;
+}
+.nav ul {
+    display: flex;
+    list-style: none;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 143%;
+    font-feature-settings: "liga" off;
+    color: #18191f;
+}
+
+.nav li + li {
+    margin-left: 32px;
+}
+
+a {
+    text-decoration: none;
+    color: #18191f;
+}
+.appstore {
+    margin-left: 177px;
+}
+
+a:hover {
+    color: orange;
+}
